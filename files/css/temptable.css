@@ -4,3 +4,77 @@
     background: -webkit-linear-gradient(top,rgba(37,141,200,1) 44%,rgba(115,182,220,1) 64%,rgba(255,255,255,0) 100%);
     background: linear-gradient(to bottom,rgba(37,141,200,1) 44%,rgba(115,182,220,1) 64%,rgba(255,255,255,0) 100%);
 }
+/* download and demo button */
+.item_demo {
+    text-align: center;
+    margin: 18px auto;
+    background: #fff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.04), 0 12px 28px rgb(248,249,250);
+}
+
+.item_demo a {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #b5b5b5;
+    padding: 9px 20px 9px 61px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: 5px;
+    -webkit-box-shadow: 0 10px 25px 0 rgba(0,0,0,.15);
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.15);
+}
+
+.item_demo a.demo:before {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+    position: absolute;
+    padding: 8px;
+    margin-right: 20px;
+    background: #f7383c;
+    background: -moz-linear-gradient(to right,rgba(252,241,138,1) 0,rgba(247,56,60,1) 100%);
+    background: -o-linear-gradient(to right,rgba(252,241,138,1) 0,rgba(247,56,60,1) 100%);
+    background: -ms-linear-gradient(to right,rgba(252,241,138,1) 0,rgba(247,56,60,1) 100%);
+    background: linear-gradient(to right,rgba(252,241,138,1) 0,rgba(247,56,60,1) 100%);
+    color: #fff;
+    content: "";
+}
+
+.item_demo a.download:before {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+    position: absolute;
+    padding: 8px;
+    margin-right: 20px;
+    background: #d481ff;
+    background: -moz-linear-gradient(to right,#d481ff 0,#05f1e1 100%);
+    background: -o-linear-gradient(to right,#d481ff 0,#05f1e1 100%);
+    background: -ms-linear-gradient(to right,#d481ff 0,#05f1e1 100%);
+    background: linear-gradient(to right,#d481ff 0,#05f1e1 100%);
+    color: #fff;
+    content: "";
+}
